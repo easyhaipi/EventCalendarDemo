@@ -13,6 +13,7 @@
 		67BBCEFB1E8CAA7700E4D5FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BBCEF91E8CAA7700E4D5FE /* Main.storyboard */; };
 		67BBCEFD1E8CAA7700E4D5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BBCEFC1E8CAA7700E4D5FE /* Assets.xcassets */; };
 		67BBCF001E8CAA7700E4D5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BBCEFE1E8CAA7700E4D5FE /* LaunchScreen.storyboard */; };
+		67BBCF091E8CAA8C00E4D5FE /* EventCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF081E8CAA8C00E4D5FE /* EventCalendar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		67BBCEFC1E8CAA7700E4D5FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		67BBCEFF1E8CAA7700E4D5FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67BBCF011E8CAA7700E4D5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67BBCF071E8CAA8C00E4D5FE /* EventCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCalendar.h; sourceTree = "<group>"; };
+		67BBCF081E8CAA8C00E4D5FE /* EventCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCalendar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				67BBCEFE1E8CAA7700E4D5FE /* LaunchScreen.storyboard */,
 				67BBCF011E8CAA7700E4D5FE /* Info.plist */,
 				67BBCEF01E8CAA7700E4D5FE /* Supporting Files */,
+				67BBCF071E8CAA8C00E4D5FE /* EventCalendar.h */,
+				67BBCF081E8CAA8C00E4D5FE /* EventCalendar.m */,
 			);
 			path = EventCalendarDemo;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			files = (
 				67BBCEF81E8CAA7700E4D5FE /* ViewController.m in Sources */,
 				67BBCEF51E8CAA7700E4D5FE /* AppDelegate.m in Sources */,
+				67BBCF091E8CAA8C00E4D5FE /* EventCalendar.m in Sources */,
 				67BBCEF21E8CAA7700E4D5FE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
