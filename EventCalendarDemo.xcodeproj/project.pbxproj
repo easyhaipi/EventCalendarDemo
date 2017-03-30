@@ -14,6 +14,24 @@
 		67BBCEFD1E8CAA7700E4D5FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67BBCEFC1E8CAA7700E4D5FE /* Assets.xcassets */; };
 		67BBCF001E8CAA7700E4D5FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67BBCEFE1E8CAA7700E4D5FE /* LaunchScreen.storyboard */; };
 		67BBCF091E8CAA8C00E4D5FE /* EventCalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF081E8CAA8C00E4D5FE /* EventCalendar.m */; };
+		67BBCF131E8CCD0F00E4D5FE /* CalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF0C1E8CCD0F00E4D5FE /* CalendarCell.m */; };
+		67BBCF141E8CCD0F00E4D5FE /* CalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF0E1E8CCD0F00E4D5FE /* CalendarController.m */; };
+		67BBCF151E8CCD0F00E4D5FE /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF101E8CCD0F00E4D5FE /* ColorUtil.m */; };
+		67BBCF161E8CCD0F00E4D5FE /* EventListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF121E8CCD0F00E4D5FE /* EventListController.m */; };
+		67BBCF391E8CCDD900E4D5FE /* LunarDateFormatter.strings in Resources */ = {isa = PBXBuildFile; fileRef = 67BBCF181E8CCDD900E4D5FE /* LunarDateFormatter.strings */; };
+		67BBCF3A1E8CCDD900E4D5FE /* libLunar.c in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF1B1E8CCDD900E4D5FE /* libLunar.c */; };
+		67BBCF3B1E8CCDD900E4D5FE /* SSHolidayCA.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF1E1E8CCDD900E4D5FE /* SSHolidayCA.m */; };
+		67BBCF3C1E8CCDD900E4D5FE /* SSHolidayChina.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF201E8CCDD900E4D5FE /* SSHolidayChina.m */; };
+		67BBCF3D1E8CCDD900E4D5FE /* SSHolidayCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF221E8CCDD900E4D5FE /* SSHolidayCountry.m */; };
+		67BBCF3E1E8CCDD900E4D5FE /* SSHolidayHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF241E8CCDD900E4D5FE /* SSHolidayHK.m */; };
+		67BBCF3F1E8CCDD900E4D5FE /* SSHolidayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF261E8CCDD900E4D5FE /* SSHolidayManager.m */; };
+		67BBCF401E8CCDD900E4D5FE /* SSHolidayTW.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF281E8CCDD900E4D5FE /* SSHolidayTW.m */; };
+		67BBCF411E8CCDD900E4D5FE /* SSHolidayUK.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF2A1E8CCDD900E4D5FE /* SSHolidayUK.m */; };
+		67BBCF421E8CCDD900E4D5FE /* SSHolidayUS.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF2C1E8CCDD900E4D5FE /* SSHolidayUS.m */; };
+		67BBCF431E8CCDD900E4D5FE /* SSHolidayWest.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF2E1E8CCDD900E4D5FE /* SSHolidayWest.m */; };
+		67BBCF441E8CCDD900E4D5FE /* SSLunarDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF311E8CCDD900E4D5FE /* SSLunarDate.m */; };
+		67BBCF451E8CCDD900E4D5FE /* SSLunarDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF331E8CCDD900E4D5FE /* SSLunarDateFormatter.m */; };
+		67BBCF461E8CCDD900E4D5FE /* SSLunarDateHoliday.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BBCF351E8CCDD900E4D5FE /* SSLunarDateHoliday.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +47,46 @@
 		67BBCF011E8CAA7700E4D5FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67BBCF071E8CAA8C00E4D5FE /* EventCalendar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCalendar.h; sourceTree = "<group>"; };
 		67BBCF081E8CAA8C00E4D5FE /* EventCalendar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCalendar.m; sourceTree = "<group>"; };
+		67BBCF0B1E8CCD0F00E4D5FE /* CalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarCell.h; sourceTree = "<group>"; };
+		67BBCF0C1E8CCD0F00E4D5FE /* CalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarCell.m; sourceTree = "<group>"; };
+		67BBCF0D1E8CCD0F00E4D5FE /* CalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarController.h; sourceTree = "<group>"; };
+		67BBCF0E1E8CCD0F00E4D5FE /* CalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarController.m; sourceTree = "<group>"; };
+		67BBCF0F1E8CCD0F00E4D5FE /* ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtil.h; sourceTree = "<group>"; };
+		67BBCF101E8CCD0F00E4D5FE /* ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtil.m; sourceTree = "<group>"; };
+		67BBCF111E8CCD0F00E4D5FE /* EventListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListController.h; sourceTree = "<group>"; };
+		67BBCF121E8CCD0F00E4D5FE /* EventListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListController.m; sourceTree = "<group>"; };
+		67BBCF191E8CCDD900E4D5FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LunarDateFormatter.strings; sourceTree = "<group>"; };
+		67BBCF1A1E8CCDD900E4D5FE /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LunarDateFormatter.strings; sourceTree = "<group>"; };
+		67BBCF1B1E8CCDD900E4D5FE /* libLunar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = libLunar.c; sourceTree = "<group>"; };
+		67BBCF1C1E8CCDD900E4D5FE /* libLunar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libLunar.h; sourceTree = "<group>"; };
+		67BBCF1D1E8CCDD900E4D5FE /* SSHolidayCA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayCA.h; sourceTree = "<group>"; };
+		67BBCF1E1E8CCDD900E4D5FE /* SSHolidayCA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayCA.m; sourceTree = "<group>"; };
+		67BBCF1F1E8CCDD900E4D5FE /* SSHolidayChina.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayChina.h; sourceTree = "<group>"; };
+		67BBCF201E8CCDD900E4D5FE /* SSHolidayChina.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayChina.m; sourceTree = "<group>"; };
+		67BBCF211E8CCDD900E4D5FE /* SSHolidayCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayCountry.h; sourceTree = "<group>"; };
+		67BBCF221E8CCDD900E4D5FE /* SSHolidayCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayCountry.m; sourceTree = "<group>"; };
+		67BBCF231E8CCDD900E4D5FE /* SSHolidayHK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayHK.h; sourceTree = "<group>"; };
+		67BBCF241E8CCDD900E4D5FE /* SSHolidayHK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayHK.m; sourceTree = "<group>"; };
+		67BBCF251E8CCDD900E4D5FE /* SSHolidayManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayManager.h; sourceTree = "<group>"; };
+		67BBCF261E8CCDD900E4D5FE /* SSHolidayManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayManager.m; sourceTree = "<group>"; };
+		67BBCF271E8CCDD900E4D5FE /* SSHolidayTW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayTW.h; sourceTree = "<group>"; };
+		67BBCF281E8CCDD900E4D5FE /* SSHolidayTW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayTW.m; sourceTree = "<group>"; };
+		67BBCF291E8CCDD900E4D5FE /* SSHolidayUK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayUK.h; sourceTree = "<group>"; };
+		67BBCF2A1E8CCDD900E4D5FE /* SSHolidayUK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayUK.m; sourceTree = "<group>"; };
+		67BBCF2B1E8CCDD900E4D5FE /* SSHolidayUS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayUS.h; sourceTree = "<group>"; };
+		67BBCF2C1E8CCDD900E4D5FE /* SSHolidayUS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayUS.m; sourceTree = "<group>"; };
+		67BBCF2D1E8CCDD900E4D5FE /* SSHolidayWest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSHolidayWest.h; sourceTree = "<group>"; };
+		67BBCF2E1E8CCDD900E4D5FE /* SSHolidayWest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSHolidayWest.m; sourceTree = "<group>"; };
+		67BBCF2F1E8CCDD900E4D5FE /* SSLunarDate-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SSLunarDate-Prefix.pch"; sourceTree = "<group>"; };
+		67BBCF301E8CCDD900E4D5FE /* SSLunarDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLunarDate.h; sourceTree = "<group>"; };
+		67BBCF311E8CCDD900E4D5FE /* SSLunarDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLunarDate.m; sourceTree = "<group>"; };
+		67BBCF321E8CCDD900E4D5FE /* SSLunarDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLunarDateFormatter.h; sourceTree = "<group>"; };
+		67BBCF331E8CCDD900E4D5FE /* SSLunarDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLunarDateFormatter.m; sourceTree = "<group>"; };
+		67BBCF341E8CCDD900E4D5FE /* SSLunarDateHoliday.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLunarDateHoliday.h; sourceTree = "<group>"; };
+		67BBCF351E8CCDD900E4D5FE /* SSLunarDateHoliday.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLunarDateHoliday.m; sourceTree = "<group>"; };
+		67BBCF361E8CCDD900E4D5FE /* SSLunarDateType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLunarDateType.h; sourceTree = "<group>"; };
+		67BBCF371E8CCDD900E4D5FE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LunarDateFormatter.strings"; sourceTree = "<group>"; };
+		67BBCF381E8CCDD900E4D5FE /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LunarDateFormatter.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +119,7 @@
 		67BBCEEF1E8CAA7700E4D5FE /* EventCalendarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				67BBCF0A1E8CCD0F00E4D5FE /* Calendar */,
 				67BBCEF31E8CAA7700E4D5FE /* AppDelegate.h */,
 				67BBCEF41E8CAA7700E4D5FE /* AppDelegate.m */,
 				67BBCEF61E8CAA7700E4D5FE /* ViewController.h */,
@@ -82,6 +141,58 @@
 				67BBCEF11E8CAA7700E4D5FE /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67BBCF0A1E8CCD0F00E4D5FE /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				67BBCF171E8CCDD900E4D5FE /* SSLunarDate */,
+				67BBCF0B1E8CCD0F00E4D5FE /* CalendarCell.h */,
+				67BBCF0C1E8CCD0F00E4D5FE /* CalendarCell.m */,
+				67BBCF0D1E8CCD0F00E4D5FE /* CalendarController.h */,
+				67BBCF0E1E8CCD0F00E4D5FE /* CalendarController.m */,
+				67BBCF0F1E8CCD0F00E4D5FE /* ColorUtil.h */,
+				67BBCF101E8CCD0F00E4D5FE /* ColorUtil.m */,
+				67BBCF111E8CCD0F00E4D5FE /* EventListController.h */,
+				67BBCF121E8CCD0F00E4D5FE /* EventListController.m */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		67BBCF171E8CCDD900E4D5FE /* SSLunarDate */ = {
+			isa = PBXGroup;
+			children = (
+				67BBCF181E8CCDD900E4D5FE /* LunarDateFormatter.strings */,
+				67BBCF1B1E8CCDD900E4D5FE /* libLunar.c */,
+				67BBCF1C1E8CCDD900E4D5FE /* libLunar.h */,
+				67BBCF1D1E8CCDD900E4D5FE /* SSHolidayCA.h */,
+				67BBCF1E1E8CCDD900E4D5FE /* SSHolidayCA.m */,
+				67BBCF1F1E8CCDD900E4D5FE /* SSHolidayChina.h */,
+				67BBCF201E8CCDD900E4D5FE /* SSHolidayChina.m */,
+				67BBCF211E8CCDD900E4D5FE /* SSHolidayCountry.h */,
+				67BBCF221E8CCDD900E4D5FE /* SSHolidayCountry.m */,
+				67BBCF231E8CCDD900E4D5FE /* SSHolidayHK.h */,
+				67BBCF241E8CCDD900E4D5FE /* SSHolidayHK.m */,
+				67BBCF251E8CCDD900E4D5FE /* SSHolidayManager.h */,
+				67BBCF261E8CCDD900E4D5FE /* SSHolidayManager.m */,
+				67BBCF271E8CCDD900E4D5FE /* SSHolidayTW.h */,
+				67BBCF281E8CCDD900E4D5FE /* SSHolidayTW.m */,
+				67BBCF291E8CCDD900E4D5FE /* SSHolidayUK.h */,
+				67BBCF2A1E8CCDD900E4D5FE /* SSHolidayUK.m */,
+				67BBCF2B1E8CCDD900E4D5FE /* SSHolidayUS.h */,
+				67BBCF2C1E8CCDD900E4D5FE /* SSHolidayUS.m */,
+				67BBCF2D1E8CCDD900E4D5FE /* SSHolidayWest.h */,
+				67BBCF2E1E8CCDD900E4D5FE /* SSHolidayWest.m */,
+				67BBCF2F1E8CCDD900E4D5FE /* SSLunarDate-Prefix.pch */,
+				67BBCF301E8CCDD900E4D5FE /* SSLunarDate.h */,
+				67BBCF311E8CCDD900E4D5FE /* SSLunarDate.m */,
+				67BBCF321E8CCDD900E4D5FE /* SSLunarDateFormatter.h */,
+				67BBCF331E8CCDD900E4D5FE /* SSLunarDateFormatter.m */,
+				67BBCF341E8CCDD900E4D5FE /* SSLunarDateHoliday.h */,
+				67BBCF351E8CCDD900E4D5FE /* SSLunarDateHoliday.m */,
+				67BBCF361E8CCDD900E4D5FE /* SSLunarDateType.h */,
+			);
+			path = SSLunarDate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +238,9 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 67BBCEE41E8CAA7700E4D5FE;
 			productRefGroup = 67BBCEEE1E8CAA7700E4D5FE /* Products */;
@@ -145,6 +259,7 @@
 			files = (
 				67BBCF001E8CAA7700E4D5FE /* LaunchScreen.storyboard in Resources */,
 				67BBCEFD1E8CAA7700E4D5FE /* Assets.xcassets in Resources */,
+				67BBCF391E8CCDD900E4D5FE /* LunarDateFormatter.strings in Resources */,
 				67BBCEFB1E8CAA7700E4D5FE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -156,10 +271,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67BBCF3B1E8CCDD900E4D5FE /* SSHolidayCA.m in Sources */,
+				67BBCF3C1E8CCDD900E4D5FE /* SSHolidayChina.m in Sources */,
 				67BBCEF81E8CAA7700E4D5FE /* ViewController.m in Sources */,
+				67BBCF431E8CCDD900E4D5FE /* SSHolidayWest.m in Sources */,
+				67BBCF421E8CCDD900E4D5FE /* SSHolidayUS.m in Sources */,
 				67BBCEF51E8CAA7700E4D5FE /* AppDelegate.m in Sources */,
+				67BBCF161E8CCD0F00E4D5FE /* EventListController.m in Sources */,
 				67BBCF091E8CAA8C00E4D5FE /* EventCalendar.m in Sources */,
+				67BBCF141E8CCD0F00E4D5FE /* CalendarController.m in Sources */,
+				67BBCF461E8CCDD900E4D5FE /* SSLunarDateHoliday.m in Sources */,
+				67BBCF3E1E8CCDD900E4D5FE /* SSHolidayHK.m in Sources */,
+				67BBCF411E8CCDD900E4D5FE /* SSHolidayUK.m in Sources */,
 				67BBCEF21E8CAA7700E4D5FE /* main.m in Sources */,
+				67BBCF3A1E8CCDD900E4D5FE /* libLunar.c in Sources */,
+				67BBCF3F1E8CCDD900E4D5FE /* SSHolidayManager.m in Sources */,
+				67BBCF3D1E8CCDD900E4D5FE /* SSHolidayCountry.m in Sources */,
+				67BBCF451E8CCDD900E4D5FE /* SSLunarDateFormatter.m in Sources */,
+				67BBCF401E8CCDD900E4D5FE /* SSHolidayTW.m in Sources */,
+				67BBCF131E8CCD0F00E4D5FE /* CalendarCell.m in Sources */,
+				67BBCF441E8CCDD900E4D5FE /* SSLunarDate.m in Sources */,
+				67BBCF151E8CCD0F00E4D5FE /* ColorUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +312,17 @@
 				67BBCEFF1E8CAA7700E4D5FE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		67BBCF181E8CCDD900E4D5FE /* LunarDateFormatter.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				67BBCF191E8CCDD900E4D5FE /* en */,
+				67BBCF1A1E8CCDD900E4D5FE /* ja */,
+				67BBCF371E8CCDD900E4D5FE /* zh-Hans */,
+				67BBCF381E8CCDD900E4D5FE /* zh-Hant */,
+			);
+			name = LunarDateFormatter.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

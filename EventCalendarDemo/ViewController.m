@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "EventCalendar.h"
-
+#import "CalendarController.h"
 @interface ViewController ()
 
 @end
@@ -49,6 +49,11 @@
         
     }];
 
+}
+- (IBAction)customCalendar:(id)sender {
+    
+    CalendarController *calendarVC = [[CalendarController alloc]init];
+    [self.navigationController pushViewController:calendarVC animated:YES];
 }
 
 @end
